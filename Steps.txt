@@ -1,0 +1,7 @@
+1. Import
+2. Load driver (Optional)
+3. Establish connection
+4. Create statement
+5. Execute query
+6. Process result
+7. Close connection

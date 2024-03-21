@@ -1,16 +1,6 @@
-/*
-1. Import
-2. Load driver (Optional)
-3. Establish connection
-4. Create statement
-5. Execute query
-6. Process result
-7. Close connection
-*/
-
 import java.sql.*;
 
-class JDBC_Manipulate
+class Manipulate
 {
     public static void main(String args[]) throws SQLException
     {
