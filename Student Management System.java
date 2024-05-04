@@ -1,7 +1,7 @@
 import java.io.*;
 import java.sql.*;
 
-class X
+class StudentManagementSystem
 {
     public static void main(String args[]) throws IOException, SQLException
     {

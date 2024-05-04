@@ -1,6 +1,6 @@
 import java.sql.*;
 
-class Dynamic_Insertion
+class DynamicInsertion
 {
     public static void main(String args[]) throws SQLException
     {

@@ -8,9 +8,9 @@ class Manipulate
         String username = "root";
         String password = "My Sql12";
 
-        String query = "INSERT INTO students VALUES(104, 'Jon Smith', 'Web Development');";
-        //query = "UPDATE students SET name = 'Peter Smith' WHERE id = 104;";
-        //query = "DELETE FROM students WHERE id = 104;";
+        String query = "INSERT INTO Students VALUES(104, 'Jon Smith', 'Web Development');";
+        //query = "UPDATE Students SET name = 'Peter Smith' WHERE id = 104;";
+        //query = "DELETE FROM Students WHERE id = 104;";
 
         /*-------------------------------------------------------------------------------*/
 
