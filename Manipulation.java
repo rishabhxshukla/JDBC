@@ -1,6 +1,6 @@
 import java.sql.*;
 
-class Manipulate
+class Manipulation
 {
     public static void main(String args[]) throws SQLException
     {
