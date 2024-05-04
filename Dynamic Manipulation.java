@@ -8,7 +8,9 @@ class DynamicInsertion
         String username = "root";
         String password = "My Sql12";
 
-        String query = "INSERT INTO students VALUES(?, ?, ?);";
+        String query = "INSERT INTO Students VALUE (?, ?, ?);";
+        //query = "UPDATE Students SET name = ? WHERE id = ?;";
+        //query = "DELETE FROM Students WHERE id = ?;";
 
         /*-------------------------------------------------------------------------------*/
 
