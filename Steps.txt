@@ -1,3 +1,5 @@
+/* ILCSQRC */
+
 1. Import
 2. Load driver (Optional)
 3. Establish connection
@@ -5,3 +7,7 @@
 5. Execute query
 6. Process result
 7. Close connection
+
+
+Statement : Static queries
+PreparedStatement : Dynamic queries
