@@ -27,6 +27,7 @@ class StudentManagementSystem
         Statement st = con.createStatement();
         String query = "";
 
+        //Query
         switch (ch)
         {
             case 1:
@@ -64,7 +65,7 @@ class StudentManagementSystem
                 break;
         }
 
-        //Closing connection
+        //Close connection
         con.close();
     }
 }

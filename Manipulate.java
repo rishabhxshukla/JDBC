@@ -21,7 +21,7 @@ class Manipulate
         Statement st = con.createStatement();
 
         //Executing the query
-        st.execute(query);
+        st.executeUpdate(query);
         System.out.println("Successful!");
 
         //Closing the connection

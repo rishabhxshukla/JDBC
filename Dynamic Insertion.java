@@ -16,10 +16,9 @@ class DynamicInsertion
         Connection con = DriverManager.getConnection(url, username, password);
 
         //Creating a statement
-        Statement st = con.createStatement();
+        PreparedStatement ps = con.prepareStatement(query);
 
         //Adding dynamic values
-        PreparedStatement ps = con.prepareStatement(query);
         ps.setInt(1, 105);
         ps.setString(2, "Griffin");
         ps.setString(3, "CSE");
